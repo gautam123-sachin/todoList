@@ -1,0 +1,233 @@
+/* Styles for application name */
+.app-name {
+    font-size: 1.25rem;
+}
+
+/* Grid container styles */
+.grid-container {
+    padding-left: 230px !important;
+    padding-right: 230px !important;
+}
+
+/* Custom grid styles */
+.custom-grid {
+    padding-top: 65px;
+}
+
+/* Edit form container styles */
+.edit-form-container {
+    padding-top: 60px;
+}
+
+/* Styles for the grid containing the edit form */
+.edit-grid {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+/* Styles for the card container within the edit form */
+.edit-card-container {
+    display: flex;
+    justify-content: center;
+    width: 35%;
+}
+
+/* Styles for card content */
+.card-content {
+    display: flex;
+    gap: 10px;
+}
+
+/* Styles for card image */
+.card-image {
+    border-radius: 15px;
+}
+
+/* Styles for card title */
+.card-title {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Styles for card address text */
+.card-address-text {
+    font-size: 15px;
+}
+
+/* Styles for the active icon */
+.active-icon {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -20px;
+    margin-left: 34px;
+}
+
+/* Styles for card icons container */
+.card-icons {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    margin-left: auto;
+    margin-right: 10px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+/* Styles for card address container */
+.card-address {
+    display: flex;
+}
+
+/* Styles for card email container */
+.card-email {
+    display: flex;
+    gap: 3px;
+}
+
+/* Styles for card phone container */
+.card-phone {
+    display: flex;
+}
+
+/* Styles for delete icon container */
+.delete-icon-container {
+    width: 35px;
+    background-color: #ffc8ae;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 33px;
+    border-radius: 10px;
+}
+
+/* Styles for edit icon container */
+.edit-icon-container {
+    width: 35px;
+    background-color: #b7e4c7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 33px;
+    border-radius: 10px;
+}
+
+/* Styles for card tags container */
+.card-tags {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+/* Styles for individual tag */
+.tag {
+    background-color: #d3eff3;
+    width: auto;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    display: inline-block;
+    white-space: nowrap;
+    margin-right: 5px;
+}
+
+/* Styles for card upload container */
+.card-upload {
+    width: 100%;
+    height: 100px;
+    background-color: #F0F0F0;
+    margin-top: 10px;
+}
+
+/* Styles for upload icon */
+.upload-icon {
+    display: flex;
+    justify-content: center;
+    color: #007bff;
+}
+
+/* Styles for upload container */
+.upload {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Styles for file uploader */
+.file-uploader {
+    cursor: pointer;
+}
+
+/* Styles for status container */
+.status {
+    display: flex;
+    margin-top: 11px;
+    gap: 301px;
+}
+
+/* Styles for switch component */
+.switch {
+    margin-top: -5px;
+}
+
+/* Styles for submit button container */
+.submit-button {
+    display: flex;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+/* Styles for card text field container */
+.card-text-field {
+    padding: 20px;
+}
+
+/* Styles for edit task title */
+.edit-task-title {
+    padding-top: 15px;
+    padding-left: 20px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #378dd3;
+}
+
+/* Styles for edit task sub-title */
+.edit-task-sub-title {
+    padding-left: 20px;
+}
+
+/* Styles for input field */
+.input-field {
+    border-radius: 14px;
+}
+
+/* Styles for uploaded container */
+.uploaded-container {
+    position: relative;
+}
+
+/* Styles for uploaded image */
+.uploaded-image {
+    width: 100px;
+    height: 70px;
+    background: transparent;
+}
+
+/* Styles for replace text */
+.replace-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #4a3b3b;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.tag-text{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+}
