@@ -20,7 +20,7 @@ import '../styles/main.css';
  * @param {Function} props.onAddressClick - The function to call when the address is clicked.
  * @returns {JSX.Element} The rendered ListCard component.
  */
-const ListCard = ({ task, onDelete, onEdit }) => {
+const ListCard = ({ task, onDelete, onEdit, onAddressClick }) => {
     // Destructuring task object for easier access to properties
   const { _id, name, isActive, address, email, phone, tags, index, picture } = task;
 
@@ -68,6 +68,8 @@ const ListCard = ({ task, onDelete, onEdit }) => {
                 <Typography
                   variant='body2'
                   className='card-address-text'
+                  sx={{ cursor: 'pointer' }}
+                  onClick={() => onAddressClick(address)}
                 >
                   {address}
                 </Typography>
@@ -117,6 +119,7 @@ ListCard.propTypes = {
   task: shape({}).isRequired,
   onDelete: func.isRequired,
   onEdit: func.isRequired,
+  onAddressClick: func.isRequired,
 }
 
 export default ListCard;
