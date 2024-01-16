@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a simple TodoList project built with Node.js.
+This is a simple TodoList project built with React.js.
 
 ## Prerequisites
 
